@@ -12,4 +12,4 @@ def with_key( xord ): #decrypting with the key
 
 xored = unhexlify("1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736")
 get = with_key(xored)
-print("\nChallenge 3 ---> " + get.replace(b'\x00', b' ').replace(b'\x07', b'\'').swapcase().decode("ascii")) #Bad things happens sometimes to python3...converting back to ascii
+print("\nChallenge 3 ---> " + get.replace(b'\x00', b' ').replace(b'\x07', b'\'').swapcase().decode("ascii")) #..converting back to ascii
