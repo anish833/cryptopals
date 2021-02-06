@@ -86,3 +86,6 @@ def challenge_fifteen( message ):
 
 message = b"ICE ICE BABY\x04\x04\x04\x04"
 print("Challenge 15 --->\n" + challenge_fifteen(message).decode('utf-8'))
+
+
+#left with challenge 11,12,13,14 and 16
